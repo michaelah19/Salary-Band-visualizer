@@ -1,0 +1,25 @@
+/* Style the dropdown options when clicked */
+.Select-menu-outer {
+    background-color: #2d2d2d !important;  /* Dark background for the dropdown options */
+}
+
+.Select-option {
+    color: #f8f8f2 !important;   /* White text for options */
+    background-color: #2d2d2d !important; /* Dark background for each option */
+}
+
+.Select-option.is-focused {
+    background-color: #444 !important;  /* Slightly lighter background when hovered */
+    color: #f8f8f2 !important;          /* Keep white text when hovered */
+}
+
+.Select-value-label {
+    color: #f8f8f2 !important;   /* Ensure the selected value in the dropdown is white */
+}
+
+.Select-control {
+    background-color: #2d2d2d !important;  /* Dark background for the dropdown itself */
+}
+
+html, body, #root, .container { height: 100%; width: 100%; margin: 0; padding: 0; }
+#root, .container { display: flex; flex-direction: column; }
